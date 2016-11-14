@@ -174,8 +174,8 @@
             "volumes": [
                {
                 "name": "mysql-master-a-data",
-                "persistentVolumeClaim": {
-                  "claimName": "mysql-master-a"
+                "emptyDir": {
+                  
                 }
               }
             ],
@@ -279,8 +279,7 @@
 		    "volumes": [
                {
                 "name": "mysql-master-b-data",
-                "persistentVolumeClaim": {
-                  "claimName": "mysql-master-b"
+                "emptyDir": {
                 }
               }
             ],
