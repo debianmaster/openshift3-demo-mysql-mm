@@ -1,4 +1,4 @@
-FROM mysql:5.6
+FROM openshift/mysql
 USER root
 # move all confugration files into container
 ADD files/* /usr/share/container-scripts/mysql/
