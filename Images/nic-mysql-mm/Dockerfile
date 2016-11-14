@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/openshift3/mysql-55-rhel7
+FROM mysql:5.6
 USER root
 # move all confugration files into container
 ADD files/* /usr/share/container-scripts/mysql/
