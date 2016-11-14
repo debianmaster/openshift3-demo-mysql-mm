@@ -1,4 +1,4 @@
-FROM openshift/mysql
+FROM docker.io/mysql
 USER root
 # move all confugration files into container
 ADD files/* /usr/share/container-scripts/mysql/
